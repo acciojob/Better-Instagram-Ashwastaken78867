@@ -40,24 +40,23 @@
   margin: 20px;
 }
 
-div.container {
-  border: 5px solid #555;
-}
-
-.flex {
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image {
+  border: 3px solid #555;
+  cursor: grab;
+}
+
+.image:active {
+  cursor: grabbing;
 }
 
 .selected {
   border: 5px solid rgb(0, 195, 255);
 }
 
-p {
-  text-align: center;
-}
-
-button {
-  margin: 20px;
-}
